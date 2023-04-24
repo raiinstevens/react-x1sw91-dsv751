@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+/*
+.p-inputtext{
+    padding: 0.563rem !important;
+}
+.p-button{
+    padding: 0.25rem !important;
+}
+.p-inputnumber-input {
+    padding: 0.563rem !important;
+    font-size: 0.875rem !important;
+}*/
+
+.ventas .p-inputtext{
+    padding: 0.563rem !important;
+}
+.ventas .p-button{
+    padding: 0.25rem !important;
+}
+.ventas .p-inputnumber-input {
+    padding: 0.563rem !important;
+    font-size: 0.875rem !important;
+}
